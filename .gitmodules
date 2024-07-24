@@ -1,0 +1,6 @@
+[submodule "coremark-pro-base"]
+	path = coremark-pro-base
+	url = https://github.com/eembc/coremark-pro.git
+[submodule "coremark-pro-rvv"]
+	path = coremark-pro-rvv
+	url = https://github.com/ucb-bar/coremark-pro.git

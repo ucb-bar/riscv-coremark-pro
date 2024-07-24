@@ -1,0 +1,13 @@
+diff --git a/mith/al/src/th_al.c b/mith/al/src/th_al.c
+index 2567c90..be60f47 100644
+--- a/mith/al/src/th_al.c
++++ b/mith/al/src/th_al.c
+@@ -96,7 +96,7 @@ Please refer to LICENSE.md for the specific license agreement that pertains to t
+ 		#define EE_TIMER_TICKER_RATE 1000
+ 		#include <time.h>
+ 		#define ALTIMETYPE struct timespec 
+-		#define GETMYTIME(_t) clock_gettime(CLOCK_REALTIME,_t)
++		#define GETMYTIME(_t) 0
+ 		#define MYTIMEDIFF(fin,ini) ((fin.tv_sec-ini.tv_sec)*(NSECS_PER_SEC/TIMER_RES_DIVIDER)+(fin.tv_nsec-ini.tv_nsec)/TIMER_RES_DIVIDER)
+ 		/* setting to 1/1000 of a second resolution by default with linux */
+ 		#ifndef TIMER_RES_DIVIDER
